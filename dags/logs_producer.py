@@ -82,37 +82,36 @@ def produce_logs():
             raise
     logger.info(f'Produced 15000 logs to topic {topic}')
     
-if __name__=="__main__":
-    produce_logs() 
 
 
 
 
 
-# default_args={
-#     'owner':'Date Mastery Lab',
-#     'depends_on_past': False,
-#     'email_on_failure': False,
-#     'retries': 1,
-#     'retry_delay': timedelta(seconds=5)
-# }
-# dag= DAG(
-#     dag_id:'log_generation_pipeline',
-#     default_args=default_args,
-#     description='Generate and produce synthetic logs',
-#     schedule_interval='*/5 * * * * '
-#     start_date=datetime(2026,4,30),
-#     catchaup=False,
-#     tags=['logs','kafka', 'production']
+
+default_args={
+    'owner':'Date Mastery Lab',
+    'depends_on_past': False,
+    'email_on_failure': False,
+    'retries': 1,
+    'retry_delay': timedelta(seconds=5)
+}
+dag= DAG(
+    dag_id:'log_generation_pipeline',
+    default_args=default_args,
+    description='Generate and produce synthetic logs',
+    schedule_interval='*/5 * * * * '
+    start_date=datetime(2026,4,30),
+    catchaup=False,
+    tags=['logs','kafka', 'production']
     
-# )
+)
 
 
-# produce_logs_task= PythonOperator(
-#     task_id='generate_and_produce_logs',
-#     python_callable=produce_logs,
-#     dag=dag
-# )
+produce_logs_task= PythonOperator(
+    task_id='generate_and_produce_logs',
+    python_callable=produce_logs,
+    dag=dag
+)
 
 
 #AWS SECRET MANAGER:ELASTIC_SEARCH_API_KEY,ELASTIC_SEARCH_URL
