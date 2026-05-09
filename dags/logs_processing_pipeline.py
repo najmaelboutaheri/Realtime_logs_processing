@@ -1,5 +1,5 @@
 from datetime import datetime , timedelta
-from airflow.providers.standard.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator
 from airflow import DAG
 from confluent_kafka import Consumer, KafkaException
 import boto3
@@ -125,12 +125,12 @@ default_args={
     'retry_delay': timedelta(seconds=5)
 }
 dag= DAG(
-    dag_id:'log_generation_pipeline',
+    dag_id='log_consumer_pipeline',
     default_args=default_args,
     description='Consume and index synthetic logs',
-    schedule_interval='*/5 * * * * '
+    schedule_interval='*/5 * * * *',
     start_date=datetime(2026,4,30),
-    catchaup=False,
+    catchup=False,
     tags=['logs','kafka', 'production']
     
 )
