@@ -957,3 +957,87 @@
 [2026-05-09T18:09:12.595+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:12.594+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:09:12.659+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:12.659+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:00:00+00:00, run_after=2026-05-09 17:05:00+00:00
 [2026-05-09T18:09:12.809+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 1.073 seconds
+[2026-05-09T18:10:12.160+0100] {processor.py:161} INFO - Started process (PID=26810) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:12.162+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:10:12.165+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:12.164+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:12.450+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:12.487+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:12.486+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:12.530+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:12.530+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:10:12.702+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.550 seconds
+[2026-05-09T18:10:16.573+0100] {processor.py:161} INFO - Started process (PID=26816) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:16.575+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:10:16.577+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:16.576+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:16.850+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:10:16.882+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:16.881+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:16.918+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:16.918+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:10:17.051+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.485 seconds
+[2026-05-09T18:11:11.448+0100] {processor.py:161} INFO - Started process (PID=26891) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:11.449+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:11:11.452+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:11.452+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:11.904+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:11.957+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:11.956+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:11:12.010+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:12.010+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:11:12.149+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.708 seconds
+[2026-05-09T18:11:15.006+0100] {processor.py:161} INFO - Started process (PID=26895) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:15.009+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:11:15.011+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:15.011+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:15.326+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:11:15.364+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:15.363+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:11:15.422+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:15.422+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:11:15.661+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.663 seconds
+[2026-05-09T18:12:14.090+0100] {processor.py:161} INFO - Started process (PID=26965) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:14.092+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:12:14.095+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:14.094+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:14.797+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:15.351+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:15.350+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:12:15.704+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:15.704+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:12:15.872+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 1.790 seconds
+[2026-05-09T18:12:19.536+0100] {processor.py:161} INFO - Started process (PID=26970) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:19.537+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:12:19.539+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:19.538+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:19.954+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:12:19.994+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:19.993+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:12:20.035+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:20.034+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:12:20.165+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.641 seconds
+[2026-05-09T18:13:17.044+0100] {processor.py:161} INFO - Started process (PID=27048) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:17.045+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:13:17.048+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:17.047+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:17.331+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:17.373+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:17.373+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:17.415+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:17.414+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:13:17.552+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.513 seconds
+[2026-05-09T18:13:20.133+0100] {processor.py:161} INFO - Started process (PID=27051) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:20.135+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:13:20.137+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:20.136+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:20.431+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:13:20.477+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:20.476+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:20.518+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:20.518+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:13:20.666+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.539 seconds
+[2026-05-09T18:14:04.176+0100] {processor.py:161} INFO - Started process (PID=27107) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:04.187+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:14:04.190+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:04.189+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:04.758+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:04.842+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:04.837+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:04.904+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:04.904+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:14:05.208+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 1.039 seconds
+[2026-05-09T18:14:17.039+0100] {processor.py:161} INFO - Started process (PID=27123) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:17.042+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:14:17.044+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:17.043+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:17.435+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:17.471+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:17.471+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:17.518+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:17.516+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:14:17.683+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.653 seconds
+[2026-05-09T18:14:57.381+0100] {processor.py:161} INFO - Started process (PID=27178) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:57.384+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:14:57.389+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:57.388+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:57.826+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:14:57.874+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:57.873+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:57.937+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:57.936+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:05:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:14:58.121+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 0.753 seconds
+[2026-05-09T18:15:11.273+0100] {processor.py:161} INFO - Started process (PID=27198) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:15:11.284+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py for tasks to queue
+[2026-05-09T18:15:11.287+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:11.286+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:15:12.102+0100] {processor.py:840} INFO - DAG(s) 'log_producer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py
+[2026-05-09T18:15:12.164+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:12.164+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:12.217+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:12.217+0100] {dag.py:3954} INFO - Setting next_dagrun for log_producer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
+[2026-05-09T18:15:12.355+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py took 1.090 seconds

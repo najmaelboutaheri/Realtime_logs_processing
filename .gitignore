@@ -2,3 +2,8 @@ api-key-HZO2QZM5UCUCNUNU.txt
 .venv
 .vscode
 __pycache__
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt

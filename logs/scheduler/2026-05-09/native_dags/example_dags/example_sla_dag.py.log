@@ -761,3 +761,87 @@
 [2026-05-09T18:09:25.024+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:25.024+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:09:25.065+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:25.065+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:06:00+00:00, run_after=2026-05-09 17:08:00+00:00
 [2026-05-09T18:09:25.193+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.228 seconds
+[2026-05-09T18:10:24.834+0100] {processor.py:161} INFO - Started process (PID=26829) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:24.835+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:10:24.842+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:24.841+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:24.859+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:24.928+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:24.927+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:25.008+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:25.008+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:08:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:10:25.148+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.322 seconds
+[2026-05-09T18:10:29.048+0100] {processor.py:161} INFO - Started process (PID=26835) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:29.050+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:10:29.052+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:29.052+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:29.064+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:10:29.108+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:29.107+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:29.173+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:29.173+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:08:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:10:29.314+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.273 seconds
+[2026-05-09T18:11:24.722+0100] {processor.py:161} INFO - Started process (PID=26907) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:24.724+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:11:24.728+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:24.727+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:24.744+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:24.791+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:24.790+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:11:24.843+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:24.843+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:08:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:11:24.974+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.269 seconds
+[2026-05-09T18:11:28.596+0100] {processor.py:161} INFO - Started process (PID=26913) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:28.598+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:11:28.599+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:28.599+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:28.616+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:11:28.678+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:28.677+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:11:28.723+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:11:28.723+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:08:00+00:00, run_after=2026-05-09 17:10:00+00:00
+[2026-05-09T18:11:28.870+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.283 seconds
+[2026-05-09T18:12:30.218+0100] {processor.py:161} INFO - Started process (PID=26983) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:30.220+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:12:30.222+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:30.222+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:30.233+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:30.268+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:30.268+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:12:30.308+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:30.308+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:12:00+00:00
+[2026-05-09T18:12:30.466+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.256 seconds
+[2026-05-09T18:12:33.033+0100] {processor.py:161} INFO - Started process (PID=26987) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:33.036+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:12:33.039+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:33.038+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:33.059+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:12:33.120+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:33.119+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:12:33.171+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:12:33.171+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:12:00+00:00
+[2026-05-09T18:12:33.323+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.299 seconds
+[2026-05-09T18:13:29.668+0100] {processor.py:161} INFO - Started process (PID=27063) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:29.670+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:13:29.675+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:29.675+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:29.694+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:29.745+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:29.745+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:29.804+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:29.804+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:12:00+00:00
+[2026-05-09T18:13:29.942+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.284 seconds
+[2026-05-09T18:13:33.684+0100] {processor.py:161} INFO - Started process (PID=27069) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:33.687+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:13:33.689+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:33.689+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:33.704+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:13:33.802+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:33.802+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:33.864+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:33.864+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:12:00+00:00
+[2026-05-09T18:13:33.995+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.319 seconds
+[2026-05-09T18:14:19.907+0100] {processor.py:161} INFO - Started process (PID=27128) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:19.911+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:14:19.913+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:19.912+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:19.924+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:19.970+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:19.969+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:20.024+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:20.023+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:12:00+00:00, run_after=2026-05-09 17:14:00+00:00
+[2026-05-09T18:14:20.187+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.286 seconds
+[2026-05-09T18:14:31.046+0100] {processor.py:161} INFO - Started process (PID=27143) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:31.048+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:14:31.050+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:31.049+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:31.062+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:14:31.108+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:31.107+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:31.153+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:31.153+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:12:00+00:00, run_after=2026-05-09 17:14:00+00:00
+[2026-05-09T18:14:31.292+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.253 seconds
+[2026-05-09T18:15:10.987+0100] {processor.py:161} INFO - Started process (PID=27197) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:10.988+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:15:10.998+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:10.997+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:11.016+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:11.068+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:11.067+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:11.144+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:11.140+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:12:00+00:00, run_after=2026-05-09 17:14:00+00:00
+[2026-05-09T18:15:11.381+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.401 seconds
+[2026-05-09T18:15:26.114+0100] {processor.py:161} INFO - Started process (PID=27215) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:26.116+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-05-09T18:15:26.118+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:26.117+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:26.131+0100] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-05-09T18:15:26.178+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:26.177+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:26.242+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:26.242+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sla_dag to 2026-05-09 17:12:00+00:00, run_after=2026-05-09 17:14:00+00:00
+[2026-05-09T18:15:26.409+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.302 seconds

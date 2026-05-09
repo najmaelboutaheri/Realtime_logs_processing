@@ -488,3 +488,136 @@
 [2026-05-09T18:03:13.672+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:13.672+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:03:13.705+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:13.705+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2026-05-09T18:03:13.883+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.291 seconds
+[2026-05-09T18:10:54.678+0100] {processor.py:161} INFO - Started process (PID=26868) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:54.681+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:10:54.685+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:54.684+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:54.711+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:55.117+0100] {processor.py:161} INFO - Started process (PID=26869) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:55.123+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:10:55.128+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:55.125+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:55.160+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:10:55.378+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:55.378+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:55.430+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:55.430+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:10:55.721+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 1.051 seconds
+[2026-05-09T18:10:55.931+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:55.931+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:55.966+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:55.966+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:10:56.161+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:56.146+0100] {dagbag.py:649} ERROR - Failed to write serialized DAG: /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+Traceback (most recent call last):
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 637, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/models/serialized_dag.py", line 158, in write_dag
+    if session.scalar(
+       ^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1747, in scalar
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_sensors', '/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py', 26770214165643840, '{"__version": 1, "dag": {"tags": ["example"], "fileloc": "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors. ... (15418 characters truncated) ... type": "BashOperator", "_task_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "date"}], "dag_dependencies": [], "params": {}}}', None, '2026-05-09 17:10:55.371216', 'd6cbc6a15ab1403891d94996227df7d4', '/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2026-05-09T18:10:56.163+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:10:56.163+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:10:56.168+0100] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 859, in process_file
+    serialize_errors = DagFileProcessor.save_dag_to_db(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 115, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/dag_processing/processor.py", line 895, in save_dag_to_db
+    import_errors = DagBag._sync_to_db(dags=dags, processor_subdir=dag_directory, session=session)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 659, in _sync_to_db
+    for attempt in run_with_db_retries(logger=log):
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/tenacity/__init__.py", line 347, in __iter__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/tenacity/__init__.py", line 314, in iter
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 675, in _sync_to_db
+    DAG.bulk_write_to_db(dags.values(), processor_subdir=processor_subdir, session=session)
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/models/dag.py", line 3108, in bulk_write_to_db
+    orm_dags: list[DagModel] = session.scalars(query).unique().all()
+                               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+    return self.execute(
+           ^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 724, in _connection_for_bind
+    self._assert_active()
+  File "/home/najma/airflow-venv/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 604, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlite3.IntegrityError) UNIQUE constraint failed: serialized_dag.dag_id
+[SQL: INSERT INTO serialized_dag (dag_id, fileloc, fileloc_hash, data, data_compressed, last_updated, dag_hash, processor_subdir) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('example_sensors', '/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py', 26770214165643840, '{"__version": 1, "dag": {"tags": ["example"], "fileloc": "/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors. ... (15418 characters truncated) ... type": "BashOperator", "_task_module": "airflow.operators.bash", "_is_empty": false, "bash_command": "date"}], "dag_dependencies": [], "params": {}}}', None, '2026-05-09 17:10:55.371216', 'd6cbc6a15ab1403891d94996227df7d4', '/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags')]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+[2026-05-09T18:13:02.508+0100] {processor.py:161} INFO - Started process (PID=27024) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:02.510+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:13:02.512+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:02.511+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:02.531+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:02.903+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:02.903+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:02.938+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:02.938+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:13:03.116+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.614 seconds
+[2026-05-09T18:13:03.318+0100] {processor.py:161} INFO - Started process (PID=27025) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:03.323+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:13:03.330+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:03.329+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:03.350+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:13:03.399+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:03.399+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:13:03.420+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:13:03.420+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:13:03.572+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.261 seconds
+[2026-05-09T18:14:39.985+0100] {processor.py:161} INFO - Started process (PID=27154) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:39.987+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:14:39.989+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:39.989+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:40.000+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:40.048+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:40.048+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:40.071+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:40.070+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:14:40.247+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.268 seconds
+[2026-05-09T18:14:54.291+0100] {processor.py:161} INFO - Started process (PID=27173) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:54.294+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-05-09T18:14:54.297+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:54.296+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:54.315+0100] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2026-05-09T18:14:54.398+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:54.397+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:14:54.422+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:54.421+0100] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-05-09T18:14:54.573+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.291 seconds
