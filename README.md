@@ -147,20 +147,28 @@ python dags/logs_processing_pipeline.py
 
 ---
 
-## Running Airflow Locally (Docker)
+## Running Airflow Locally (in windows with installing ubuntu)
 
 ```bash
-# Download official Airflow docker-compose
-curl -o docker-compose.yaml https://airflow.apache.org/docs/apache-airflow/2.9.0/docker-compose.yaml
-
-# Initialize
-docker-compose up airflow-init
-
-# Start
-docker-compose up -d
+# Intialize
+airflow db init
+# Define $AIRFLOW_HOME variable that points to dags folder:
+export AIRFLOW_HOME=/mnt/c/Users/{user_name}/Desktop/Realtime_logs_processing/dags
+# Set your user name and password:
+airflow users create \
+    --username admin \
+    --password admin \
+    --firstname Leila \
+    --lastname Admin \
+    --role Admin \
+    --email admin@example.com
+# Schedule the apache airflow
+airflow schedule
+# Run apache airflow server
+aiflow webserver --port 8080 
 ```
 
-Open `http://localhost:8080` — login with `airflow / airflow`.
+Open `http://localhost:8080` — login with username and password created before.
 
 ---
 
