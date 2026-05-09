@@ -582,3 +582,19 @@
 [2026-05-09T18:14:13.104+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:13.103+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2026-05-09T18:14:13.114+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:13.114+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2026-05-09T18:14:13.259+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.314 seconds
+[2026-05-09T18:15:46.277+0100] {processor.py:161} INFO - Started process (PID=27241) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:46.279+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2026-05-09T18:15:46.282+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:46.281+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:46.294+0100] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:46.347+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:46.346+0100] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-05-09T18:15:46.369+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:46.368+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2026-05-09T18:15:46.381+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:46.381+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2026-05-09T18:15:46.550+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.281 seconds
+[2026-05-09T18:15:59.751+0100] {processor.py:161} INFO - Started process (PID=27259) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:59.753+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2026-05-09T18:15:59.756+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:59.755+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:59.770+0100] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2026-05-09T18:15:59.912+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:59.911+0100] {dag.py:3096} INFO - Sync 2 DAGs
+[2026-05-09T18:15:59.973+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:59.972+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2026-05-09T18:15:59.998+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:59.997+0100] {dag.py:3954} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2026-05-09T18:16:00.232+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.492 seconds

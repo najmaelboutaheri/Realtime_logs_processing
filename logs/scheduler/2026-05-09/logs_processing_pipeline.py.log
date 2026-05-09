@@ -1041,3 +1041,31 @@
 [2026-05-09T18:15:14.589+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:14.589+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:15:14.629+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:14.629+0100] {dag.py:3954} INFO - Setting next_dagrun for log_consumer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
 [2026-05-09T18:15:14.780+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py took 1.069 seconds
+[2026-05-09T18:15:53.007+0100] {processor.py:161} INFO - Started process (PID=27249) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:15:53.012+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py for tasks to queue
+[2026-05-09T18:15:53.039+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:53.034+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:15:53.936+0100] {processor.py:840} INFO - DAG(s) 'log_consumer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:15:53.973+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:53.972+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:54.010+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:54.009+0100] {dag.py:3954} INFO - Setting next_dagrun for log_consumer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
+[2026-05-09T18:15:54.190+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py took 1.212 seconds
+[2026-05-09T18:16:07.343+0100] {processor.py:161} INFO - Started process (PID=27268) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:07.346+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py for tasks to queue
+[2026-05-09T18:16:07.348+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:07.347+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:08.357+0100] {processor.py:840} INFO - DAG(s) 'log_consumer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:08.397+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:08.396+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:16:08.441+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:08.441+0100] {dag.py:3954} INFO - Setting next_dagrun for log_consumer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
+[2026-05-09T18:16:08.588+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py took 1.254 seconds
+[2026-05-09T18:16:46.966+0100] {processor.py:161} INFO - Started process (PID=27324) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:46.968+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py for tasks to queue
+[2026-05-09T18:16:46.972+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:46.971+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:47.830+0100] {processor.py:840} INFO - DAG(s) 'log_consumer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:47.865+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:47.864+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:16:47.903+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:47.902+0100] {dag.py:3954} INFO - Setting next_dagrun for log_consumer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
+[2026-05-09T18:16:48.046+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py took 1.097 seconds
+[2026-05-09T18:16:58.104+0100] {processor.py:161} INFO - Started process (PID=27339) to work on /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:58.107+0100] {processor.py:830} INFO - Processing file /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py for tasks to queue
+[2026-05-09T18:16:58.110+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:58.109+0100] {dagbag.py:540} INFO - Filling up the DagBag from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:59.213+0100] {processor.py:840} INFO - DAG(s) 'log_consumer_pipeline' retrieved from /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py
+[2026-05-09T18:16:59.245+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:59.245+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:16:59.285+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:59.285+0100] {dag.py:3954} INFO - Setting next_dagrun for log_consumer_pipeline to 2026-05-09 17:10:00+00:00, run_after=2026-05-09 17:15:00+00:00
+[2026-05-09T18:16:59.429+0100] {processor.py:183} INFO - Processing /mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py took 1.334 seconds

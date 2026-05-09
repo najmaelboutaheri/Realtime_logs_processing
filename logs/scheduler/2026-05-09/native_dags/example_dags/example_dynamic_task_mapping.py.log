@@ -530,3 +530,17 @@
 [2026-05-09T18:15:03.532+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:03.531+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:15:03.580+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:03.580+0100] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
 [2026-05-09T18:15:03.779+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.335 seconds
+[2026-05-09T18:16:39.312+0100] {processor.py:161} INFO - Started process (PID=27314) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:39.314+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-05-09T18:16:39.317+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:39.317+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:39.327+0100] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:39.372+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:39.372+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:16:39.434+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:39.434+0100] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2026-05-09T18:16:39.610+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.306 seconds
+[2026-05-09T18:16:48.690+0100] {processor.py:161} INFO - Started process (PID=27326) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:48.692+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2026-05-09T18:16:48.693+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:48.693+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:48.702+0100] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2026-05-09T18:16:48.751+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:48.750+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:16:48.789+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:16:48.789+0100] {dag.py:3954} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2026-05-09T18:16:48.952+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.267 seconds

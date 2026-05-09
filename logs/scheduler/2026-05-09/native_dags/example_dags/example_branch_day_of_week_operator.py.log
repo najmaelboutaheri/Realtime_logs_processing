@@ -509,3 +509,17 @@
 [2026-05-09T18:14:07.157+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:07.156+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:14:07.204+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:14:07.204+0100] {dag.py:3954} INFO - Setting next_dagrun for example_weekday_branch_operator to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
 [2026-05-09T18:14:07.351+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.445 seconds
+[2026-05-09T18:15:42.772+0100] {processor.py:161} INFO - Started process (PID=27234) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:42.774+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-09T18:15:42.784+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:42.784+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:42.802+0100] {processor.py:840} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:42.930+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:42.930+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:43.014+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:43.013+0100] {dag.py:3954} INFO - Setting next_dagrun for example_weekday_branch_operator to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T18:15:43.164+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.408 seconds
+[2026-05-09T18:15:55.763+0100] {processor.py:161} INFO - Started process (PID=27253) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:55.765+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2026-05-09T18:15:55.769+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:55.768+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:55.783+0100] {processor.py:840} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2026-05-09T18:15:55.844+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:55.844+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:15:55.911+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:15:55.911+0100] {dag.py:3954} INFO - Setting next_dagrun for example_weekday_branch_operator to 2026-05-08 00:00:00+00:00, run_after=2026-05-09 00:00:00+00:00
+[2026-05-09T18:15:56.087+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.332 seconds
