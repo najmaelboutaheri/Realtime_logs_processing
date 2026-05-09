@@ -593,3 +593,17 @@
 [2026-05-09T18:03:02.654+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:02.654+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:03:02.675+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:02.674+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
 [2026-05-09T18:03:02.788+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.199 seconds
+[2026-05-09T18:09:31.990+0100] {processor.py:161} INFO - Started process (PID=26764) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:31.992+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-05-09T18:09:31.994+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:31.993+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:31.998+0100] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:32.117+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:32.117+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:09:32.130+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:32.130+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-05-09T18:09:32.351+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.365 seconds
+[2026-05-09T18:09:39.533+0100] {processor.py:161} INFO - Started process (PID=26772) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:39.543+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2026-05-09T18:09:39.549+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:39.548+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:39.566+0100] {processor.py:840} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2026-05-09T18:09:39.612+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:39.612+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:09:39.633+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:39.633+0100] {dag.py:3954} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2026-05-09T18:09:39.764+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.237 seconds

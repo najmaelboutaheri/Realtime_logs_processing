@@ -502,3 +502,10 @@
 [2026-05-09T18:03:06.385+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:06.385+0100] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-05-09T18:03:06.456+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:03:06.455+0100] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2026-05-09 12:00:00+00:00, run_after=2026-05-09 16:00:00+00:00
 [2026-05-09T18:03:06.622+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.328 seconds
+[2026-05-09T18:09:52.098+0100] {processor.py:161} INFO - Started process (PID=26789) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-05-09T18:09:52.102+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2026-05-09T18:09:52.105+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:52.104+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-05-09T18:09:52.119+0100] {processor.py:840} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2026-05-09T18:09:52.409+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:52.409+0100] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-09T18:09:52.443+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:52.443+0100] {dag.py:3954} INFO - Setting next_dagrun for latest_only_with_trigger to 2026-05-09 12:00:00+00:00, run_after=2026-05-09 16:00:00+00:00
+[2026-05-09T18:09:52.566+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.478 seconds

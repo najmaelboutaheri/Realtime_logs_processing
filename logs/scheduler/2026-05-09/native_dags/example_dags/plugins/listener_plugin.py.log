@@ -368,3 +368,13 @@
 [2026-05-09T18:02:30.652+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:02:30.652+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2026-05-09T18:02:30.655+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
 [2026-05-09T18:02:30.685+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.040 seconds
+[2026-05-09T18:09:43.075+0100] {processor.py:161} INFO - Started process (PID=26777) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:43.078+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-05-09T18:09:43.081+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:43.081+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:43.088+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:43.132+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.072 seconds
+[2026-05-09T18:09:47.977+0100] {processor.py:161} INFO - Started process (PID=26784) to work on /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:47.978+0100] {processor.py:830} INFO - Processing file /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2026-05-09T18:09:47.980+0100] {logging_mixin.py:188} INFO - [2026-05-09T18:09:47.979+0100] {dagbag.py:540} INFO - Filling up the DagBag from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:47.985+0100] {processor.py:842} WARNING - No viable dags retrieved from /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2026-05-09T18:09:48.023+0100] {processor.py:183} INFO - Processing /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.053 seconds
