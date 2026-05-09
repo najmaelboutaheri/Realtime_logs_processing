@@ -20438,3 +20438,123 @@ File Path                                                                       
 /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2026-05-09T17:02:41
 /home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2026-05-09T17:01:31
 ================================================================================
+[2026-05-09T18:03:19.356+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  2.81s           2026-05-09T17:01:40
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  1.31s           2026-05-09T17:01:33
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.84s           2026-05-09T17:03:05
+/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py                                                                                       1           0  0.81s           2026-05-09T17:02:40
+/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py                                                                            1           0  0.81s           2026-05-09T17:02:42
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.71s           2026-05-09T17:02:53
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  0.61s           2026-05-09T17:02:22
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.61s           2026-05-09T17:02:26
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.61s           2026-05-09T17:03:10
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.60s           2026-05-09T17:01:43
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.52s           2026-05-09T17:02:24
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.50s           2026-05-09T17:02:59
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.41s           2026-05-09T17:02:15
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.41s           2026-05-09T17:02:45
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.41s           2026-05-09T17:02:57
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.41s           2026-05-09T17:03:08
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.40s           2026-05-09T17:03:06
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.40s           2026-05-09T17:02:13
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.40s           2026-05-09T17:02:55
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.40s           2026-05-09T17:02:33
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.40s           2026-05-09T17:02:36
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.40s           2026-05-09T17:03:13
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.40s           2026-05-09T17:02:10
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.40s           2026-05-09T17:02:28
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.32s           2026-05-09T17:02:48
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.31s           2026-05-09T17:02:51
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.31s           2026-05-09T17:02:50
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.31s           2026-05-09T17:02:12
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.30s           2026-05-09T17:03:17
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  0.30s           2026-05-09T17:03:07
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.30s           2026-05-09T17:03:02
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.30s           2026-05-09T17:03:00
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.30s           2026-05-09T17:02:34
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.30s           2026-05-09T17:03:19
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.30s           2026-05-09T17:01:36
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.30s           2026-05-09T17:01:37
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.30s           2026-05-09T17:02:47
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.30s           2026-05-09T17:03:12
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.30s           2026-05-09T17:02:29
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.30s           2026-05-09T17:02:35
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.30s           2026-05-09T17:03:01
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.30s           2026-05-09T17:02:38
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.30s           2026-05-09T17:02:44
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.30s           2026-05-09T17:01:44
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.30s           2026-05-09T17:02:11
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.30s           2026-05-09T17:02:43
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.30s           2026-05-09T17:01:45
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.21s           2026-05-09T17:02:31
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.21s           2026-05-09T17:02:20
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.20s           2026-05-09T17:03:15
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.20s           2026-05-09T17:02:19
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.20s           2026-05-09T17:02:27
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2026-05-09T17:02:17
+================================================================================
+[2026-05-09T18:03:20.684+0100] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py                                                            1           0  2.31s           2026-05-09T17:01:40
+/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_processing_pipeline.py                                                                            1           0  1.62s           2026-05-09T17:02:59
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py                                                             1           0  1.31s           2026-05-09T17:02:53
+/mnt/c/Users/leila/Desktop/Realtime_logs_processing/dags/logs_producer.py                                                                                       1           0  0.81s           2026-05-09T17:02:56
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py                                                      1           0  0.72s           2026-05-09T17:02:22
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py                                                             1           0  0.71s           2026-05-09T17:01:51
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                                  3           0  0.61s           2026-05-09T17:01:43
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py                                                                   1           0  0.50s           2026-05-09T17:03:11
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                                   1           0  0.50s           2026-05-09T17:03:04
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py                                                                          1           0  0.50s           2026-05-09T17:03:16
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_datasets.py                                                                 10           0  0.50s           2026-05-09T17:02:42
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py                                                                1           0  0.41s           2026-05-09T17:02:25
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py                                                               1           0  0.41s           2026-05-09T17:01:48
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py                                                                   1           0  0.41s           2026-05-09T17:02:45
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py                                                              1           0  0.41s           2026-05-09T17:01:57
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py                                                   1           0  0.40s           2026-05-09T17:03:07
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api.py                                                             1           0  0.40s           2026-05-09T17:02:24
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_decorator.py                                                   1           0  0.40s           2026-05-09T17:03:09
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                                           1           0  0.40s           2026-05-09T17:01:56
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py                                                                  1           0  0.40s           2026-05-09T17:03:18
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                                               1           0  0.40s           2026-05-09T17:01:49
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                                  1           0  0.40s           2026-05-09T17:01:37
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_subdag_operator.py                                                           3           0  0.40s           2026-05-09T17:03:01
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py                                                           1           0  0.40s           2026-05-09T17:01:44
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py                                                                   1           0  0.40s           2026-05-09T17:02:36
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_python_decorator.py                                                          1           0  0.40s           2026-05-09T17:02:34
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py                                                          1           0  0.32s           2026-05-09T17:01:53
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_xcomargs.py                                                                  2           0  0.31s           2026-05-09T17:03:20
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                                  2           0  0.30s           2026-05-09T17:01:54
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py                                                  0           0  0.30s           2026-05-09T17:03:06
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py                                                                      1           0  0.30s           2026-05-09T17:03:13
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_target_dag.py                                                        1           0  0.30s           2026-05-09T17:03:02
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py                                                                   0           0  0.30s           2026-05-09T17:01:32
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                                    1           0  0.30s           2026-05-09T17:03:14
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                                 0           0  0.30s           2026-05-09T17:02:48
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_operator.py                                                           0           0  0.30s           2026-05-09T17:02:49
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_params_ui_tutorial.py                                                        1           0  0.30s           2026-05-09T17:02:35
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                                              1           0  0.30s           2026-05-09T17:01:46
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py                           1           0  0.30s           2026-05-09T17:02:50
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py                                                      1           0  0.30s           2026-05-09T17:02:46
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py                                                                      1           0  0.30s           2026-05-09T17:02:28
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py                                                             1           0  0.30s           2026-05-09T17:02:39
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py                                                         1           0  0.30s           2026-05-09T17:01:46
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py                                                         1           0  0.30s           2026-05-09T17:02:44
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py                                                    1           0  0.30s           2026-05-09T17:02:27
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py                                                            1           0  0.20s           2026-05-09T17:02:32
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py                                                            1           0  0.20s           2026-05-09T17:01:29
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                                 0           0  0.10s           2026-05-09T17:02:38
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/event_listener.py                                                            0           0  0.10s           2026-05-09T17:01:36
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py                                                           0           0  0.10s           2026-05-09T17:02:30
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py                                                                    0           0  0.10s           2026-05-09T17:02:29
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/example_kubernetes_executor.py                                                       0           0  0.10s           2026-05-09T17:02:41
+/home/najma/airflow-venv/lib/python3.12/site-packages/airflow/example_dags/plugins/decreasing_priority_weight_strategy.py                                       0           0  0.10s           2026-05-09T17:01:31
+================================================================================
